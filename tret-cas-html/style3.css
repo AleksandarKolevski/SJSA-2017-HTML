@@ -91,7 +91,7 @@ header{
 .main-list {
 	width: 940px;
 	height: 435px;
-	margin: 0;
+	margin: 50px 0 0 0;
 	padding: 0;
 	float: left;
 	list-style-type: none;
@@ -113,24 +113,33 @@ header{
 	margin: 0;
 	padding: 0;
 	color: #11719e
+	width: 300px;
+}
+.list-header {
+	width: 300px;
+	float: left;
+	height: 50px;
 }
 .list-header span{
 	display: block;
 	color: #666666;
 	font-family: Helvetica;
 	font-size: 12px;
+	width: 300px;
 }
 .gorna-senka{
 	width: 299px;
 	height: 3px;
 	display: block;
 	background-image: url(img-shadow-up.png);
+	float: left;
 }
 .dolna-senka{
 	width: 299px;
 	height: 3px;
 	display: block;
 	background-image: url(img-shadow-down.png);
+	float: left;
 }
 .img-holder img{
 	height: 205px;
@@ -142,6 +151,7 @@ header{
 	float: left;
 	border-radius: 5px;
 	border:1px solid grey;
+	width: 298px;
 
 }
 .main-list p{
@@ -180,4 +190,106 @@ header{
 }
 .list-header header{
 	height: 40px;
+}
+ul.vtora-klasa {
+	width: 940px;
+	height: 340px;
+	float: left;
+	/*background-color: red;*/
+	margin: 0;
+	padding: 0;
+}
+ul.vtora-klasa li{
+	width: 300px;
+	height: 340px;
+	float: left;
+	margin: 0 20px 0 0;
+	/*background-color: blue;*/
+}
+ul.vtora-klasa li:last-child {
+	margin: 0;
+}
+ul.vtora-klasa li h1{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: Georgia;
+	font-weight: 400;
+	color: #444444;
+	/*background-color: yellow;*/
+	border-bottom: 1px dashed #444444;
+	padding:0 0 10px 0;
+
+}
+ul.vtora-klasa li p{
+	margin: 10px 0;
+	padding:0;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+ul.social{
+	width: 300px;
+	height: 50px;
+	/*background-color: orange;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.social li{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 12px 0 0 ;
+
+}
+ul.vtora-klasa li h2{
+	font-size: 18px;
+	font-family: Georgia;
+	color: #444444;
+	border-bottom: 1px dashed #444444;
+	padding:0 0 10px 0;
+	margin: 45px 0 0 0 ;
+
+
+}
+ul.vtora-klasa input{
+	width: 280px;
+	height: 35px;
+	border-radius: 5px;
+	border:1px solid #444444;
+	padding-left: 10px;
+}
+.kopce{
+	width: 160px !important;
+	height: 35px !important;
+	float: left;
+	display: block;
+	background-color: #4e85be;
+	border:1px solid #004a80;
+	color: #fff;
+	text-align: left;
+	margin:18px 0 0 0 ;
+
+
+}
+form.kontakt-forma{
+	width: 300px;
+	height: 320px;
+	padding:14px 0 0 0;
+
+}
+form.kontakt-forma input{
+	width: 280px;
+	height: 35px;
+	margin: 0 0 10px 0;
+	border:1px solid #444444;
+}
+form.kontakt-forma textarea{
+	width: 270px;
+	height: 135px;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 14px;
+	margin:0 0 10px 0;
 }
